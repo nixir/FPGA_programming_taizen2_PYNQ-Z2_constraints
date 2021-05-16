@@ -194,4 +194,5 @@ set_property -dict { PACKAGE_PIN R19   IOSTANDARD LVCMOS33 } [get_ports { hdmi_t
 
 set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { crypto_sda }]; #IO_25_35 Sch=crypto_sda
 
-set_property CLOCK_DEDICATED_ROUTE BACKBONE [get_nets CLK_IBUF] 
+## Avoid HDMI error property. 
+#set_property CLOCK_DEDICATED_ROUTE BACKBONE [get_nets CLK_IBUF] 
