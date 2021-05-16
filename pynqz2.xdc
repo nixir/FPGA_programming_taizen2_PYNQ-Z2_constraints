@@ -1,3 +1,5 @@
+#Downloaded from https://www.tul.com.tw/productspynq-z2.html
+
 # This file is a general .xdc for the PYNQ-Z2 board 
 # To use it in a project:
 # - uncomment the lines corresponding to used pins
